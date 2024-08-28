@@ -1,0 +1,165 @@
+body{
+    background: linear-gradient(125deg,rgb(18, 95, 184),rgb(79, 157, 226));
+}
+.top{
+    height: 70px;
+    display: flex;
+}
+#icon{
+    color: aliceblue;
+    height: 70px;
+    width: 205px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+#text{
+    color: aliceblue;
+    font-family: hello;
+    margin-left: 10px;
+    font-size: 45px;
+}
+@font-face {
+    font-family: hello;
+    src: url(/roadmap/Carattere-Regular.ttf);
+}
+#bar1{
+    color: aliceblue;
+    border: 2px solid,aliceblue;
+    margin-top: 15px;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin-left: 650px;
+}
+#bar2{
+    color: aliceblue;
+    border: 2px solid,aliceblue;
+    margin-top: 15px;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+#bar3{
+    color: aliceblue;
+    border: 2px solid,aliceblue;
+    margin-top: 15px;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+#bar4{
+    color: aliceblue;
+    font-size: 15px;
+    border: 2px solid,aliceblue;
+    margin-top: 15px;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+#text1{
+    color: aliceblue;
+    font-family: hello2;
+    margin-left: 8px;
+}
+@font-face {
+    font-family: hello2;
+    src: url(/roadmap/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}
+.box{
+    display: flex;
+}
+#box1{
+    height: 100vh;
+    width: 120vh;
+    border: 2px solid black;
+}
+#box2{
+    height: 100vh;
+    width: 85vh;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+#anibox{
+    height: 37vh;
+    width: 100vh;
+    border: 2px solid black;
+    margin-top: 120px;
+    margin-left: 90px;
+    font-family: ani1;
+}
+#heading1{
+    height: 15vh;
+    width: 99%;
+    border: 2px solid black;
+    margin: 2px;
+    color: black;
+    text-align: center;
+    font-size: 12vh;
+    font-weight: bolder;
+}
+#heading11{
+    height: 16vh;
+    width: 99%;
+    border: 2px solid black;
+    display: flex;
+}
+#heading2{
+    height: 15vh;
+    width: 60%;
+    border: 2px solid black;
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+    font-size: 12vh;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: ani1;
+    src: url(Boilover\ Thin.ttf);
+}
+h2{
+    align-items: center;
+    margin-left: 20%;
+    font-weight:bold;
+    font-family: ani1;
+    color: aliceblue;
+}
+#container{
+    margin-left: 17%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+}
+input{
+    font-size: 3vh;
+    margin: 2px 0px;
+    height: 30px;
+    padding: 7px;
+    width: 60vh;
+    border-radius: 20px;
+}
+

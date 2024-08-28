@@ -1,0 +1,159 @@
+body{
+    background-color: #f5d6c0;
+    display: flex;
+    align-items: center;
+}
+.first{
+    height: 100vh;
+    width: 110vh;
+    background-color: #f5d6c0;
+}
+.second{
+    height: 100vh;
+    width: 110vh;
+    background-color: #f5d6c0;
+}
+#logo{
+    height: 90px;
+    width: 130px;
+    overflow: hidden;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+}
+.logohead{
+    height: 110px;
+    width: 100%;
+    display: flex;
+}
+#big{
+    font-size: 50px;
+    margin-left: 15px;
+    font-family: Bubble;
+}
+@font-face {
+    font-family: Bubble;
+    src: url(/prakruti/Cormorant-VariableFont_wght.ttf);
+}
+.text{
+    height: 100%;
+    width: 200px;
+}
+#small{
+    font-size: 30px;
+    margin-left: 15px;
+    font-family:Hello ;
+    color: #399452;
+}
+@font-face {
+    font-family:hello ;
+    src: url(/prakruti/AdventPro-VariableFont_wdth\,wght.ttf);
+}
+.heading{
+    font-family: headtext;
+    height: 100px;
+    width: 650px;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 100px;
+}
+@font-face {
+    font-family: headtext;
+    src: url(/prakruti/FrederickatheGreat-Regular.ttf);
+}
+.subheading{
+    font-family: hello;
+    height: 40px;
+    width: 500px;
+    margin-left: 65px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: #399452;
+}
+.mainbox{
+    font-family: hello;
+    text-align: center;
+    font-size: 25px;
+    height: 180px;
+    width: 650px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chatbox{
+    font-family: hello;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: hello;
+    height: 85px;
+    width: 240px;
+    margin-left:250px;
+    margin-top: 15px;
+    font-size: 30px;
+    background-image: linear-gradient(43deg,#445d59, #0cb038);
+    color: white;
+}
+.scrolldiv{
+    font-family: hello;
+    height: 70px;
+    width: 300px;
+    margin-left: 220px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+}
+#scrollimg{
+    font-family: hello;
+    height: 25PX;
+    width: 30PX;
+    margin-left: 126PX;
+    margin-top: 10PX;
+}
+#scrollimg img{
+    height: 100%;
+    width: 100%;
+}
+#sfirst{
+    height: 100px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav{
+    font-family: Bubble;
+    height: 40px;
+    width: 100px;
+    color: black;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    border-radius: 100px;
+}
+#nav:hover{
+    background-image: linear-gradient(43deg,#445d59, #399452);
+    color: white;
+}
+#home{
+    font-family: Bubble;
+    background-image: linear-gradient(43deg,#445d59, #399452);
+    height: 40px;
+    width: 100px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    border-radius: 100px;
+}
+#ssecond{
+    height: 550px;
+    width: 90vh;
+}
+#ssecond img{
+    height: 105%;
+    width: 105%;
+}

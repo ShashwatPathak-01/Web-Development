@@ -1,0 +1,26 @@
+.animationbox{
+    height: 14vh;
+    margin-left: 2px;
+}
+.animationbox li{
+    color: rgb(21, 144, 221);
+    list-style: none;
+    font-size: 12vh;
+}
+.animationbox li span{
+    position: relative;
+}
+.animationbox li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: rgb(21, 144, 221);
+    animation: typing 1.5s steps(9) infinite;
+}
+@keyframes typing{
+    100%{
+        left:100%;
+    }
+}
